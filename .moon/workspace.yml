@@ -1,0 +1,10 @@
+$schema: "https://moonrepo.dev/schemas/workspace.json"
+
+versionConstraint: ">=1.18.5"
+
+vcs:
+  manager: "git"
+  defaultBranch: "master"
+
+projects:
+  - "packages/*"

@@ -1,0 +1,4 @@
+node:
+  version: ">=20.0.0"
+  packageManager: "pnpm"
+  pnpm: {}

@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-changesets",
+  "description": "Testing monorepo packaging with changesets and moon",
+  "private": true,
+  "author": "enchart",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@moonrepo/cli": "^1.18.5"
+  },
+  "scripts": {
+    "release": "changeset publish"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

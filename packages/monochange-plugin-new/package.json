@@ -1,0 +1,28 @@
+{
+  "name": "@enchart-test/monochange-plugin-new",
+  "description": "Test package 2",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enchart/monorepo-changesets.git"
+  },
+  "keywords": [],
+  "author": "enchart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enchart/monorepo-changesets/issues"
+  },
+  "homepage": "https://github.com/enchart/monorepo-changesets/packages/monochange"
+}
