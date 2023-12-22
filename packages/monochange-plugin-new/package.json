@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/enchart/monorepo-changesets/issues"
   },
-  "homepage": "https://github.com/enchart/monorepo-changesets/packages/monochange"
+  "homepage": "https://github.com/enchart/monorepo-changesets/packages/monochange",
+  "peerDependencies": {
+    "@enchart-test/monochange": "workspace:^"
+  }
 }
